@@ -14,7 +14,10 @@ export default function LandingPage() {
         <div className="relative max-w-5xl mx-auto px-6 pt-16 pb-24">
           {/* Nav */}
           <nav className="flex items-center justify-between mb-20">
-            <span className="text-[17px] font-semibold text-[#1d1d1f]">RAG Corporativo</span>
+            <div className="flex items-center gap-2.5">
+              <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
+              <span className="text-[17px] font-semibold text-[#1d1d1f]">RAG Corporativo</span>
+            </div>
             <Link
               href="/app"
               className="bg-[#0071e3] text-white px-5 py-2 rounded-full text-[14px] font-medium hover:bg-[#0077ed] active:scale-[0.97] transition-all duration-150"
