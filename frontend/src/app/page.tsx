@@ -15,7 +15,7 @@ export default function LandingPage() {
           {/* Nav */}
           <nav className="flex items-center justify-between mb-20">
             <div className="flex items-center gap-2.5">
-              <img src="/logo.png" alt="Logo" className="h-8 w-auto" />
+              <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
               <span className="text-[17px] font-semibold text-[#1d1d1f]">RAG Corporativo</span>
             </div>
             <Link
