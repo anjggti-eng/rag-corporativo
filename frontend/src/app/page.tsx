@@ -14,14 +14,7 @@ export default function LandingPage() {
         <div className="relative max-w-5xl mx-auto px-6 pt-16 pb-24">
           {/* Nav */}
           <nav className="flex items-center justify-between mb-20">
-            <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-[8px] bg-[#0071e3] flex items-center justify-center">
-                <svg className="w-4.5 h-4.5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
-                </svg>
-              </div>
-              <span className="text-[17px] font-semibold text-[#1d1d1f]">RAG Corporativo</span>
-            </div>
+            <span className="text-[17px] font-semibold text-[#1d1d1f]">RAG Corporativo</span>
             <Link
               href="/app"
               className="bg-[#0071e3] text-white px-5 py-2 rounded-full text-[14px] font-medium hover:bg-[#0077ed] active:scale-[0.97] transition-all duration-150"
@@ -229,14 +222,7 @@ export default function LandingPage() {
       {/* Footer */}
       <footer className="border-t border-[#e5e5e7] bg-white">
         <div className="max-w-5xl mx-auto px-6 py-8 flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-6 h-6 rounded-[6px] bg-[#0071e3] flex items-center justify-center">
-              <svg className="w-3 h-3 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09z" />
-              </svg>
-            </div>
-            <span className="text-[13px] text-[#86868b]">RAG Corporativo</span>
-          </div>
+          <span className="text-[13px] text-[#86868b]">RAG Corporativo</span>
           <p className="text-[12px] text-[#aeaeb2]">
             FastAPI · Next.js · ChromaDB · OpenAI · Ragas
           </p>
